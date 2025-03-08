@@ -4,7 +4,7 @@ import Name.*;
 public class nestedswitch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        name obj=new name();
+        Name obj=new Name();
         obj.display();
 
         String name,department,semester,subjects;
@@ -39,7 +39,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -74,7 +74,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -109,7 +109,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -144,7 +144,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -174,7 +174,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
                     
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -204,7 +204,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -234,7 +234,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
@@ -264,7 +264,7 @@ public class nestedswitch {
                     System.out.println("--------------------------------------------");
 
                     System.out.print("Choose the Subject to Submit the Assignment : ");
-                    subjects = sc.nextInt();
+                    subjects = sc.nextLine();
                     switch (subjects){
                         case "1":
                             System.out.println("Student : "+name);
